@@ -1,0 +1,35 @@
+nav{
+    background-color: blue; font-size: 30px; 
+}
+p{
+    background-color: brown;
+}
+
+.navigation{
+    display: flex; flex-direction: row; gap: 50px; justify-content: space-evenly;
+}
+img{
+    max-width: 20%; max-height: 20%; 
+}
+.bild{
+    display: flex; flex-direction: row; gap: 10px; justify-content: space-evenly; transition: filter 0.3s ease; /* Fügt eine sanfte Animation für den Hover-Effekt hinzu */
+}img:hover {
+    filter: brightness(1.2); /* Ändert die Helligkeit des Bildes auf 120% beim Hover */
+    box-shadow: 0 0 50px rgba(18, 146, 129, 0.5); /* Fügt einen Schatten zum Bild hinzu beim Hover */
+    transform: scale(1.1); /* Vergrößert das Bild um 10% beim Hover */  
+    transform: translateY(15px) translateX(15px); /* Bewegt das Bild um 50 Pixel nach rechts beim Hover */
+}
+.navigation li {
+    background-color: blanchedalmond;box-sizing: border-box;width: 130px;text-align: center;
+}
+.navigation li:hover{
+    filter: brightness(1.2);
+    box-shadow: 0 0 40px rgba(164, 14, 223, 0.5);
+    transform: scale(1.1);
+}
+body {
+    width: 100vw; /* 100% der Viewport-Breite */
+    height: 100vh; /* 100% der Viewport-Höhe */
+    margin: 0; /* Entfernt den Abstand um den Body */
+  }
+  

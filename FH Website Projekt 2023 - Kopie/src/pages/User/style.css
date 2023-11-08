@@ -1,0 +1,9 @@
+button{
+   padding-block: 50px;width: 100px; padding: auto;margin: 350px;
+}
+body {
+    width: 100vw; /* 100% der Viewport-Breite */
+    height: 100vh; /* 100% der Viewport-Höhe */
+    margin: 0; /* Entfernt den Abstand um den Body */
+  }
+  

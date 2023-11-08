@@ -1,0 +1,50 @@
+.bg-image{
+    width: 100vw; /* 100% der Viewport-Breite */
+    height: 200vh; /* 100% der Viewport-Höhe */
+    margin: 0; /* Entfernt den Abstand um den Body */
+    background-image: url("/src/assets/images/mode unsplash.jpg") ;
+    background-color: #6c4b2c;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+.nav-bar{
+    background-color: #00676c;
+    z-index: 2;
+    position: fixed;
+    top: 1px;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 250px;
+    padding: 50px;
+}
+div nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 250px;
+   
+   
+   
+}
+nav{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav div{
+    background-color: #003a41;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+a{
+    color: black;
+}
+nav :hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px #003a41;
+    filter: brightness(1.2);
+}
